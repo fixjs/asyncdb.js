@@ -1,0 +1,27 @@
+{
+  "name": "asyncdb",
+  "version": "0.0.1",
+  "authors": [
+    "Mehran Hatami <mehranhatamie@gmail.com>"
+  ],
+  "description": "An async client database",
+  "main": "asyncdb.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    "build"
+  ],
+  "dependencies": {
+    "lodash": "~3.6.0"
+  }
+}

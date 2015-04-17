@@ -1,0 +1,10 @@
+  if (typeof exports === 'object') {
+    module.exports = asyncdb(require('../lodash/lodash'));
+  } else if (typeof define === 'function' && define.amd) {
+    define(['../lodash/lodash'], asyncdb);
+  } else {
+    global.AsyncDB = asyncdb(global._);
+  }
+}(function () {
+  return this;
+}));
