@@ -4,16 +4,23 @@ AsyncDB is a lightweight wrapper on top of [async-local-storage](https://github.
 
 All credits goes to [async-local-storage](https://github.com/slightlyoff/async-local-storage) API and of course [lodash](https://lodash.com/).
 
+## Installation
+
+Install with [Bower](http://bower.io):
+
+```
+bower install --save asyncdb
+```
+
+The component can be used as a CommonJS module, an AMD module, or a global.
+
 ## API
 To use AsyncDB in your JavaScript code, you could simply add it as a script tag:
 
 ```html
 <script src="asyncdb.js"></script>
 ```
-
-Or require it as an AMD or CommonJS module:
-
-Then you could use it like:
+Or require it as an AMD or CommonJS module. Then you could use it like:
 
 ```javascript
 var AsyncDB = require('asyncdb'),
